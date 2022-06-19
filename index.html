@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1.0, maximun-scale=1.0, minumum-scale=1.0">
     <title>VIKINGA BOX</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="container">
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <div class="logo"><a href="index.html"><img src="logo.jpg" alt="logo"></a></div>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
@@ -26,7 +28,7 @@
     </header>
 
     <main class="mainIndex">
-        <section class="sectionUno">
+        <section class="sectionUno" >
             <p class="textoSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, sint?</p> 
             <p class="textoSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, sint?</p>
             <p class="textoSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, sint?</p>
@@ -45,7 +47,7 @@
             <p>PUBICIDAD</p>
         </div>
 
-        <div class="contacto">
+        <div class="contacto" data-aos="zoom-in">
             <form action="" method="get" id="contacto">
                 <div>
                     <p>CONTACTANOS</p>
@@ -68,5 +70,9 @@
     <footer class="footer">
         <p class="footerText">Copyright &copy; 2022 by Jessica Gonzalez</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

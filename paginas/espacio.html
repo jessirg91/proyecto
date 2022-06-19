@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestros espacios</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar" >
         <div class="logo"><a href="../index.html"><img src="../logo1.jpg" alt="logo"></a></div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
@@ -27,22 +28,22 @@
     </header>
 
     <main class="mainPaginas">
-        <div class="salon1"> 
+        <div class="salon1" data-aos="fade-right"> 
             <h5>Salon de clases grupales</h5>
             <p>En este espacio se dictan las clases de Zumba, Localizada, Salsa y Crossfitness</p>
-            <img src="../assets/imagenes/multipleuso.jpg" alt="salon de multipleuos">
+            <img src="../assets/imagenes/multipleuso.jpg" alt="salon de multipleuos" >
         </div>
-        <div class="salon1">
+        <div class="salon1" data-aos="fade-left">
             <h5>Salon de musculacion</h5>
             <p>Contamos con una amplia variedad de maquinas</p>
             <img src="../assets/imagenes/musculacion.jpg" alt="salon musculacion">
         </div>
-        <div class="salon1">
+        <div class="salon1" data-aos="fade-right">
             <h5>Salon de Spinning</h5>
             <p>Contamos con 30 bicicletas fijas</p>
             <img src="../assets/imagenes/spinning.jpg" alt="salon de spinning">
         </div>
-        <div class="salon1">
+        <div class="salon1" data-aos="fade-left">
             <h5>Salon de Acrobacias Aereas</h5>
             <p>Este espacio cuenta con la altura indicada para que puedan desarrollarse las actividades.</p>
             <img src="../assets/imagenes/aereas.jpg" alt="salon de acrobacias aereas">
@@ -52,5 +53,9 @@
     <footer class="footer">
         <p class="footerText">Copyright &copy; 2022 by Jessica Gonzalez</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
